@@ -1,4 +1,4 @@
-import { Github, Film } from "lucide-react";
+import {  Film } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -28,7 +28,7 @@ export default function Footer() {
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 hover:text-white transition"
                     >
-                        <Github size={20} />
+                        
                         GitHub
                     </a>
 
