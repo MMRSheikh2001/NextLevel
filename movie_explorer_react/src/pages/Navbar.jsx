@@ -1,8 +1,13 @@
-export default function Navbar(){
+import { Link } from "react-router";
+
+export default function Navbar() {
 
     return (
         <div>
-            This is Nav Bar
+            <nav className="flex items-center justify-between px-6 py-4 border-b">
+                <Link to="/" className="font-bold">🎬 MovieExplorer</Link>
+                <Link to="/movie" className="text-sm">Movies</Link>
+            </nav>
         </div>
     )
 }
