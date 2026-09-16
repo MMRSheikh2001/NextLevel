@@ -1,13 +1,19 @@
 import { Outlet } from "react-router";
+import Navbar from "../pages/Navbar";
+import Footer from "../pages/Footer";
 
 export default function MainLayout() {
     return (
-        <div>
-            
-            <div className="min-h-screen flex justify-center items-center">
+        <div className="min-h-screen flex flex-col">
+
+            <Navbar />
+
+            <main className="flex-1">
                 <Outlet />
-            </div>
-          
+            </main>
+
+            <Footer />
+
         </div>
     )
 }
