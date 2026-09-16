@@ -11,7 +11,7 @@ export default function Navbar() {
 
                 <div className="flex items-center justify-between">
 
-                    {/* Logo */}
+                   
                     <Link
                         to="/"
                         className="flex items-center gap-2 text-2xl font-bold"
@@ -20,7 +20,7 @@ export default function Navbar() {
                         <span>MovieExplorer</span>
                     </Link>
 
-                    {/* Desktop Navigation */}
+                   
                     <div className="hidden md:flex items-center gap-8">
 
                         <Link
@@ -46,7 +46,7 @@ export default function Navbar() {
 
                     </div>
 
-                    {/* Mobile Menu Button */}
+                    
                     <button
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className="md:hidden"
@@ -60,7 +60,7 @@ export default function Navbar() {
 
                 </div>
 
-                {/* Mobile Navigation */}
+               
                 {isMenuOpen && (
                     <div className="md:hidden mt-4 flex flex-col gap-4 pb-2">
 

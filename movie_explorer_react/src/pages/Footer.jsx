@@ -8,7 +8,7 @@ export default function Footer() {
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6">
 
-                    {/* Brand */}
+                    
                     <div className="flex items-center gap-2">
                         <Film size={24} />
                         <span className="text-xl font-bold text-white">
@@ -16,12 +16,12 @@ export default function Footer() {
                         </span>
                     </div>
 
-                    {/* Description */}
+                    
                     <p className="text-sm text-center">
                         Discover movies and explore your next favorite show.
                     </p>
 
-                    {/* GitHub */}
+                    
                     <a
                         href="https://github.com/MMRSheikh2001/NextLevel"
                         target="_blank"
